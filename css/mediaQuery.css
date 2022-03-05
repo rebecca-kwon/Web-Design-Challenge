@@ -1,0 +1,23 @@
+@media(min-width: 1299px)
+{
+    #BigVersion{
+        
+        visibility: visible;
+    }
+
+    #LittleVersion{
+        display: none;
+    }
+}
+
+@media(max-width: 1300px)
+{
+    #BigVersion{
+        display: none;
+    }
+
+    #LittleVersion{
+        visibility: visible;
+    }
+
+}
